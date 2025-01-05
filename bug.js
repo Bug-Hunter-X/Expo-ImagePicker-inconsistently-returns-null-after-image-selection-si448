@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library.  The issue is that sometimes, after selecting an image, the picker returns null despite the image successfully being selected on the device. This leads to unexpected behavior in your application, as the subsequent image processing steps would fail due to the null value.
